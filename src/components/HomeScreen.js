@@ -40,12 +40,14 @@ const HomeScreen = () => {
       {/* Section Two */}
 
       <View
-        className="my-5 mx-3 py-4 px-4 rounded-xl space-y-3 border-2 border-sky-300"
+        className="my-5 mx-3 py-4 px-4 bg-white rounded-xl space-y-3 border-4 border-sky-300"
         style={{
-          backgroundColor: "000",
           shadowColor: "#000",
-          shadowOpacity: 0.2,
-          elevation: 10,
+          shadowOffset: {width: 0, height: 3,},
+          shadowOpacity: 0.27,
+          shadowRadius: 4.65,
+
+        elevation: 6,
         }}
       >
         <Text className="text-sky-600 font-semibold text-[28px]">
